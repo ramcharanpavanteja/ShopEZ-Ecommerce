@@ -1,0 +1,73 @@
+.HomePage {
+    margin-top: 14vh;
+}
+
+/* ================= Banner ================= */
+
+.home-banner img {
+    width: 94%;
+    height: 60vh;
+    margin: 0 auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= Categories Container ================= */
+
+.home-categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 10vh auto 12vh auto;
+    flex-wrap: wrap;
+}
+
+/* ================= Category Card ================= */
+
+.home-category-card {
+    width: 200px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Hover animation */
+.home-category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* ================= Image ================= */
+
+.home-category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+/* Zoom effect */
+.home-category-card:hover img {
+    transform: scale(1.08);
+}
+
+/* ================= Title Overlay ================= */
+
+.home-category-card h5 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 12px 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
