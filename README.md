@@ -1,2 +1,2 @@
 # ShopEZ-Ecommerce
-This is a project assignment assigned by the smartInternz and smartBridge
+This is an Ecommerce project assigned by the smartInternz and smartBridge
