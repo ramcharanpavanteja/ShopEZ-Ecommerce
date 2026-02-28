@@ -12,12 +12,13 @@ USER & ADMIN FLOW:
   • Users start by registering for an account.
   • After registration, they can log in with their credentials.
   • Once logged in, they can check for the available products in the
-  platform. • Users can add the products they wish to their carts and
-  order.
+    platform.
+  • Users can add the products they wish to their carts and
+    order.
   • They can then proceed by entering address and payment
-  details.
+     details.
   • After ordering, they can check them in the profile
-  section.
+    section.
 2. Admin Flow:
   • Admins start by logging in with their credentials.
   • Once logged in, they are directed to the Admin Dashboard.
